@@ -1,10 +1,3 @@
-<template>
-  <button class="button btn btn-primary" @click="openDemoGuide">
-    <div class="demo-guide">DEMO GUIDE</div>
-    <div class="learn-more">Learn more about this demo</div>
-  </button>
-</template>
-
 <script>
 import { mapActions } from 'vuex';
 import { Modals } from '@/partials/AppModal/config';
